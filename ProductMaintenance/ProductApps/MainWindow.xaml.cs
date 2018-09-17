@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-// Feat_wrap1_1 coded by Daniel Bialous
+// Feat_GST coded by Daniel Bialous
 namespace ProductApps
 {
     /// <summary>
@@ -36,6 +36,7 @@ namespace ProductApps
                 totalPaymentTextBlock.Text = Convert.ToString(cProduct.TotalPayment);
                 totalChargeTextBlock.Text = Convert.ToString(cProduct.TotalPayment + 25);
                 totalWrappingTextBlock.Text = Convert.ToString(cProduct.TotalPayment + 25 + 5);
+                gstTextBlock.Text = Convert.ToString((cProduct.TotalPayment + 25 + 5) * 1.1m);
             }
             catch (FormatException)
             {

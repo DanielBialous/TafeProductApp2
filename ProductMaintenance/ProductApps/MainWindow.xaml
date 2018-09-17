@@ -18,6 +18,9 @@
         <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="204,229,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
         <Label x:Name="lblWrapping" Content="Total Charge after adding&#x0a;the wrapping Charge($5.00)" HorizontalAlignment="Left" Margin="48,251,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.515,-0.305"/>
         <TextBlock x:Name="totalWrappingTextBlock" HorizontalAlignment="Left" Margin="210,273,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+        <Label x:Name="lblGST" Content="Total Charge After GST @10%" HorizontalAlignment="Left" Margin="48,284,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="gstTextBlock" HorizontalAlignment="Left" Margin="220,289,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="67"/>
+
 
 
     </Grid>
